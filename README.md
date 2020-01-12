@@ -1,7 +1,8 @@
 # PMP
 
+```
 About:
-    This is a small little project: Interacting with Arduino using vocal commands.
+    ## This is a small little project: Interacting with Arduino using vocal commands.
     -> There are two major components. 
         1) The arduino side in C/C++
         2) The computer/ laptop side in Python
@@ -34,3 +35,4 @@ Usage:
             $> Is there any flame?
             $> Thank you very much
             $> You may exit the program now
+```
