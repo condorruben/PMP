@@ -13,6 +13,8 @@ temperature_mode = b'\x01'
 humidity_mode = b'\x02'
 flame_mode = b'\x03'
 
+# Change the COM 
+port = "COM6"
 cntVoice = 0
 
 def Speak(text):
@@ -42,7 +44,7 @@ def GetAudio():
     return said
 
 def main():
-    arduino = serial.Serial("COM6", 9600)
+    arduino = serial.Serial(port, 9600)
     mode = node_mode
     global cntVoice
     cntVoice = 0
