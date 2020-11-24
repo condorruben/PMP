@@ -2,7 +2,7 @@
 
 ```
 About:
-    ## This is a small little project: Interacting with Arduino using vocal commands.
+    ## This is a little project: Interacting with Arduino using vocal commands.
     -> There are two major components. 
         1) The arduino side in C/C++
         2) The computer/ laptop side in Python
